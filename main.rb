@@ -15,9 +15,9 @@ def start
   end
   if player1.lives == 0 && player2.lives == 0
     puts "Both lose"
-  elsif player1.lives == 0 && player2.lives != 0
+  elsif player1.lives == 0
     puts "#{player2.name} wins with a score of #{player2.lives}/3"
-  elsif player2.lives == 0 && player1.lives != 0
+  elsif player2.lives == 0
     puts "#{player1.name} wins with a score of #{player1.lives}/3"
   end
   puts "----- GAME OVER -----"
